@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub1" />
+    <RadioButton
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub2" />
+    <RadioButton
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub3" />
+    <RadioButton
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub4" />
+    <RadioButton
+        android:id="@+id/s5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub5" />
+    <RadioButton
+        android:id="@+id/s6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sub6" />
+    </RadioGroup>
+    <Button 
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="okay"/>
+
+</LinearLayout>

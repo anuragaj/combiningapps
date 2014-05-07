@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/semester3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|fill_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/sem3a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 3 A" />
+         <Button
+            android:id="@+id/sem3b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 3 B" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/semester4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sem4a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 4 A" />
+         <Button
+            android:id="@+id/sem4b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 4 B" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/semester5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sem5a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 5 A" />
+         <Button
+            android:id="@+id/sem5b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 5 B" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/semester6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sem6a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 6 A" />
+         <Button
+            android:id="@+id/sem6b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 6 B" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/semester7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sem7a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 7 A" />
+         <Button
+            android:id="@+id/sem7b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 7 B" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/semester8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sem8a"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 8 A" />
+         <Button
+            android:id="@+id/sem8b"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEM 8 B" />
+    </LinearLayout>
+
+
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
